@@ -25,11 +25,26 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   margin: 0 auto;
+
+  background-color: #f2ede4;
+  background-image: url("../images/coming-soon-banner.svg");
 }
 
-h1,
-h2 {
+.cs-h1 {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.cs-info {
+  margin: 1.5rem;
+}
+
+.cs-info2 {
+  margin: 0;
+}
+
+.cs-info3 {
+  margin: 2rem;
 }
 
 .icon {
@@ -40,9 +55,9 @@ h2 {
   vertical-align: middle;
 }
 
-.i-32 {
-  height: 32px;
-  width: 32px;
+.i-18 {
+  height: 18px;
+  width: 18px;
 }
 
 .cs-socials {
@@ -51,14 +66,17 @@ h2 {
   justify-content: space-between;
 }
 
-.cs-li {
-  list-style-type: none;
-}
-
 .social-icons {
   color: #2f3540;
+  list-style-type: none;
 }
 
 .social-icons:hover {
   color: #f66256;
+}
+
+.social-icons:focus {
+  color: #f66256;
+  outline: .2rem solid #000;
+  outline-offset: .1rem;
 }
