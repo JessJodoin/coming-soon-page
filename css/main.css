@@ -23,3 +23,16 @@ h1,
 h2 {
   font-family: Montserrat, sans-serif;
 }
+
+.icon {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.i-32 {
+  height: 32px;
+  width: 32px;
+}
