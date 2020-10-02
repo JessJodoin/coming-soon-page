@@ -11,17 +11,25 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: Cardo, serif;
+  font-family: "Cardo", serif;
   line-height: 1.5;
+  color: #2F3540;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+.coming-soon-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 0 auto;
+}
+
 h1,
 h2 {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .icon {
@@ -35,4 +43,22 @@ h2 {
 .i-32 {
   height: 32px;
   width: 32px;
+}
+
+.cs-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cs-li {
+  list-style-type: none;
+}
+
+.social-icons {
+  color: #2f3540;
+}
+
+.social-icons:hover {
+  color: #f66256;
 }
