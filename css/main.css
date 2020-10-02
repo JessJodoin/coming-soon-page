@@ -11,9 +11,15 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
+  font-family: Cardo, serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
 }
