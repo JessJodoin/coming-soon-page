@@ -28,47 +28,62 @@ img {
   width: 100%;
 }
 
-.coming-soon-card {
+.coming-soon {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
+
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 38em;
+}
+
+.logo {
+  width: 110px;
+  grid-column: 1;
+  margin: 1rem auto;
+
+}
+
+.cs-content {
   margin: 0 auto;
 }
 
 .cs-h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  margin: 0 0 .5rem;
 }
 
 .cs-info {
-  margin: 1.5rem;
+  max-width: 30em;
+}
+
+.cs-info1 {
+  margin: 0 0 1rem;
 }
 
 .cs-info2 {
-  margin: 0;
+  margin: 0 0 2rem;
 }
 
-.cs-info3 {
-  margin: 2rem;
+.bold {
+  font-weight: bold;
+  font-style: normal;
 }
 
-.i-18 {
-  height: 18px;
-  width: 18px;
-}
-
-.cs-socials {
+.cs-social {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  align-content: center;
 }
 
 .social-icons {
   color: #2f3540;
+  width: 16px;
 }
 
 .social-icons:hover {
