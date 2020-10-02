@@ -30,19 +30,19 @@ img {
 
 .coming-soon {
   margin: 0;
-  background-color: #f2ede4;
 }
 
 .cs-section {
   margin: 0 auto;
   padding: 1rem;
   max-width: 38em;
+  background-color: #f2ede4;
 }
 
 .logo {
   display: block;
-  width: 110px;
-  margin: 1rem auto;
+  width: 156px;
+  margin: 2rem auto;
 }
 
 .cs-content {
@@ -54,6 +54,7 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin: 0 0 .5rem;
+  font-size: 2rem;
 }
 
 .cs-info {
@@ -73,7 +74,7 @@ img {
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   margin: 0;
   padding: 0;
@@ -81,11 +82,10 @@ img {
 }
 
 .icon {
-  color: #2f3540;
+  fill: #2f3540;
   width: 48px;
 }
 
-a:hover .icon {
-  color: #f66256;
-  width: 48px;
+.icon:hover {
+  fill: #f66256;
 }
