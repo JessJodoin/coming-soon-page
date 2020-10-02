@@ -29,24 +29,25 @@ img {
 }
 
 .coming-soon {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  margin: 0;
+  background-color: #f2ede4;
+}
 
+.cs-section {
   margin: 0 auto;
   padding: 1rem;
   max-width: 38em;
 }
 
 .logo {
+  display: block;
   width: 110px;
-  grid-column: 1;
   margin: 1rem auto;
-
 }
 
 .cs-content {
   margin: 0 auto;
+  max-width: 30em;
 }
 
 .cs-h1 {
@@ -56,15 +57,7 @@ img {
 }
 
 .cs-info {
-  max-width: 30em;
-}
-
-.cs-info1 {
-  margin: 0 0 1rem;
-}
-
-.cs-info2 {
-  margin: 0 0 2rem;
+  margin: 0 0 .6rem;
 }
 
 .bold {
@@ -73,25 +66,26 @@ img {
 }
 
 .cs-social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 0;
-  margin: 0;
-  align-content: center;
+  margin: 0 auto;
+  max-width: 30em;
 }
 
 .social-icons {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.icon {
   color: #2f3540;
-  width: 16px;
+  width: 48px;
 }
 
-.social-icons:hover {
+a:hover .icon {
   color: #f66256;
-}
-
-.social-icons:focus {
-  color: #f66256;
-  outline: .2rem solid #000;
-  outline-offset: .1rem;
+  width: 48px;
 }
